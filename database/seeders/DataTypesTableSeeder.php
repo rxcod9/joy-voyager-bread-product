@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'products',
                 'display_name_singular' => __('joy-voyager-bread-product::seeders.data_types.product.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-product::seeders.data_types.product.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-product voyager-shop',
                 'model_name'            => 'Joy\\VoyagerBreadProduct\\Models\\Product',
                 // 'policy_name'           => 'Joy\\VoyagerBreadProduct\\Policies\\ProductPolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadProduct\\Http\\Controllers\\VoyagerBreadProductController',
